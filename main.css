@@ -1,0 +1,332 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  min-height: 100vh;
+}
+.nav {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5em;
+  margin-bottom: 4em;
+}
+.nav .logo {
+  scale: 0.5;
+  margin: -3em;
+}
+ul {
+  display: flex;
+  gap: 1em;
+  align-items: center;
+}
+.first-image img {
+  width: 100%;
+  /* max-width: 40em; */
+  margin-bottom: 1em;
+}
+.files-text {
+  width: 100%;
+  text-align: center;
+}
+.files-text h2 {
+  font-size: 2em;
+  padding: 1em;
+  margin-bottom: -0.5em;
+}
+.files-text p {
+  padding: 1em;
+  margin-bottom: 1em;
+}
+.email-1 input {
+  width: 100%;
+  max-width: 30em;
+  padding: 1em;
+  border-width: 2px;
+  font-size: 1em;
+  margin-bottom: 1em;
+  border-radius: 0.3em;
+}
+.btn-1 {
+  width: 100%;
+  max-width: 24em;
+  padding: 1em 0.7em;
+  font-weight: 600;
+  font-size: 1.2em;
+  color: hsl(0, 0%, 100%);
+  background: hsl(224, 93%, 58%);
+  border: none;
+  border-radius: 0.3em;
+}
+#files {
+  padding: 2em;
+  width: 100%;
+  margin-bottom: 3em;
+}
+.second-image img {
+  width: 100%;
+  margin-bottom: 2em;
+  margin-top: 4em;
+}
+.messg-texts h4 {
+  text-align: center;
+  margin-bottom: 0.5em;
+  font-size: 1.2em;
+}
+.messg-texts p {
+  padding: 0.5em 0;
+}
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: hsl(170, 45%, 43%);
+}
+.link p {
+  font-size: 0.8em;
+  margin-right: -0.5em;
+}
+.line {
+  border: 1px solid hsl(170, 45%, 43%);
+  margin: 0 auto;
+  max-width: 9em;
+  margin-bottom: 2em;
+}
+
+.box p {
+  font-size: 0.8em;
+  line-height: 1.5em;
+}
+.box h5 {
+  padding: 0 1em;
+}
+.avatar-name p {
+  font-size: 0.6em;
+  padding: 0 1.5em;
+}
+.avatar img {
+  width: 2em;
+  margin: 0 em;
+  border-radius: 5em;
+}
+.avatar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.avatar-name {
+  margin-left: -0.5em;
+}
+.box {
+  margin: 0 auto;
+  padding: 1em 1em;
+  background: hsl(0, 0%, 100%);
+  max-width: 18em;
+}
+#messages {
+  width: 100%;
+  min-height: 100vh;
+  padding: 0 2em;
+  background: url(images/bg-curve-mobile.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* margin-bottom: 4em; */
+}
+#access {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  background-color: hsl(238, 22%, 44%);
+  color: hsl(0, 0%, 100%);
+  padding: 3em 4em;
+}
+.access-texts h4 {
+  margin-bottom: 1em;
+}
+.access-texts p {
+  padding: 1em;
+  font-size: 0.85em;
+  margin-bottom: 2em;
+}
+
+.email-2 input {
+  width: 100%;
+  max-width: 20em;
+  padding: 1em;
+  border: none;
+  font-size: 0.7em;
+  margin-bottom: 1em;
+  border-radius: 0.3em;
+}
+.btn-2 {
+  width: 100%;
+  max-width: 20em;
+  padding: 1em 0.7em;
+  font-weight: 600;
+  font-size: 0.7em;
+  color: hsl(0, 0%, 100%);
+  background: hsl(224, 93%, 58%);
+  border: none;
+  border-radius: 0.3em;
+  margin-bottom: 2em;
+}
+#main-footer {
+  width: 100%;
+  background-color: hsl(243, 87%, 12%);
+  padding: 3em 2em;
+  color: hsl(0, 0%, 100%);
+}
+.footer-logo img {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 3px;
+  padding: 5px;
+  margin-bottom: 2em;
+}
+.phone-contact {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  margin-bottom: 1em;
+}
+.email-contact {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  margin-bottom: 3em;
+}
+.about {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  margin-bottom: 3em;
+}
+.contact-us {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  margin-bottom: 3em;
+}
+.fonts-a {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+.fab {
+  border: 1px solid hsl(0, 0%, 100%);
+  padding: 5px;
+  border-radius: 50%;
+}
+@media screen and (min-width: 996px) {
+  .nav {
+    padding: 3em;
+  }
+  ul {
+    font-size: 0.7em;
+  }
+  #files {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    gap: 2em;
+    padding: 3em;
+  }
+  .files-text {
+    text-align: left;
+    padding: 0;
+  }
+  .files-text h2 {
+    margin-left: -0.4em;
+  }
+  .email-1 {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+  }
+  .email-1 input {
+    margin-left: 1.5em;
+    padding: -1em 0;
+  }
+  .btn-1 {
+    margin-top: -1em;
+    font-size: 1em;
+    max-width: 13em;
+  }
+  #messages {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 2em;
+    padding: 4em;
+  }
+  .messg-texts {
+    width: 100%;
+  }
+  .messg-texts h4 {
+    text-align: left;
+  }
+  .messg-texts > .line {
+    margin-left: 0.1em;
+  }
+  .link {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    gap: 0.6em;
+  }
+  .box {
+    margin-left: -0.3em;
+  }
+  #access {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4em;
+  }
+  .access-texts {
+    width: 100%;
+    text-align: left;
+    max-width: 35em;
+  }
+  .access-texts p {
+    margin-left: -1em;
+  }
+  .email-2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 15em;
+  }
+  .email-2 input {
+    width: 100%;
+    max-width: 60em;
+  }
+  .btn-2 {
+    width: 100%;
+    max-width: 20em;
+  }
+  .footer {
+    width: 100%;
+    display: flex;
+    gap: 15em;
+  }
+  .fonts-a {
+    margin-top: -10em;
+  }
+  #main-footer {
+    padding: 5em;
+  }
+}
